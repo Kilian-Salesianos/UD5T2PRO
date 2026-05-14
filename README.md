@@ -1,18 +1,54 @@
-## Getting Started
+# RIPADBAISOR - Sistema de Ranking de Hoteles
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Descripción del proyecto
 
-## Folder Structure
+Este proyecto consiste en una aplicación desarrollada en Java para gestionar un sistema de ranking de hoteles.
 
-The workspace contains two folders by default, where:
+La aplicación permite almacenar hoteles en memoria utilizando un `ArrayList`, permitiendo al usuario realizar diferentes operaciones desde consola.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+El programa ha sido desarrollado aplicando conceptos fundamentales de programación orientada a objetos, modularización del código, control de errores mediante `try-catch` y gestión de listas dinámicas.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Los datos únicamente permanecen almacenados mientras el programa está en ejecución.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+---
 
-## Dependency Management
+# Funcionalidades principales
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+La aplicación permite:
+
+- Añadir hoteles
+- Editar hoteles
+- Mostrar hoteles registrados
+- Eliminar hoteles
+- Controlar errores de entrada
+- Validar datos introducidos por el usuario
+
+---
+
+# Tecnologías utilizadas
+
+- Java
+- ArrayList
+- Scanner
+- Try Catch
+- Programación orientada a objetos
+- Git y GitHub
+
+---
+
+# Estructura del proyecto
+
+```txt
+src/
+└── net/
+    ├── App.java
+    │
+    └── salesianos/
+        ├── datos/
+        │   └── Datos.java
+        │
+        ├── hotel/
+        │   └── Hotel.java
+        │
+        └── listahotel/
+            └── ListaHotel.java
