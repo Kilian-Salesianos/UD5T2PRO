@@ -1,8 +1,8 @@
-# RIPADBAISOR - Sistema de Ranking de Hoteles
+# RIPADBAISOR
 
 ## Descripción del proyecto
 
-Este proyecto consiste en una aplicación desarrollada en Java para gestionar un sistema de ranking de hoteles.
+Aplicación desarrollada en Java para gestionar un sistema de ranking de hoteles.
 
 La aplicación permite almacenar hoteles en memoria utilizando un `ArrayList`, permitiendo al usuario realizar diferentes operaciones desde consola.
 
